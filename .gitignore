@@ -1,0 +1,18 @@
+# Ignore external files/folders that shouldn't be tracked
+../*  # Ignore everything outside the current project directory
+
+# Specific folders to ignore
+.vscode/
+.idea/
+node_modules/
+.venv/
+*.log
+
+# OS-specific files
+Thumbs.db
+.DS_Store
+
+# Other IDE/editor folders
+.vscode/
+.idea/
+.project/
