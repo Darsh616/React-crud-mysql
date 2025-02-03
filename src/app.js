@@ -20,8 +20,8 @@ app.set('views', path.join(__dirname, 'views'));
 // middlewares
 app.use(morgan('dev'));
 app.use(myConnection(mysql, {
-    host: 'localhost',
-    user: 'root',
+    host:'host.docker.internal',// host:  'localhost' || '127.0.0.1'||'host.docker.internal',localhost
+    user: 'root',   
     password: 'newpassword',
     port: '3306',
     database: 'crudnodejsmysql'
