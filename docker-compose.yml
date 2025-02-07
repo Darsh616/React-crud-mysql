@@ -13,7 +13,7 @@ services:
       - mynetwork
 
   app:
-    build: .
+    image: darshan616/two-tier-app
     container_name: node-app
     ports:
       - "3000:3000"  # Expose Node.js app on port 3000
