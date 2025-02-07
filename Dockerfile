@@ -17,5 +17,6 @@ COPY . .
 EXPOSE 3000
 
 # Start the app
+# Changes
 
 CMD ["npm", "start"]
